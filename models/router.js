@@ -12,7 +12,9 @@ router.get('/test', (req, res) => {
 // @desc		Get all ducks
 // @route		GET /
 router.get('/', (req, res) => {
-
+    Duck.find()
+    .then(ducks => res.status(202).json(ducks))
+    .catch(error => res.status(500).json({message: `${error.message}; ${error.stack}`}))
 })
 // @desc		Get a duck by id
 // @route		GET /:id
