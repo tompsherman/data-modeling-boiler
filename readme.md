@@ -5,7 +5,7 @@
 3. npm init -y
 4. touch server.js
 5. npm i -D nodemon
-6. npm i express dotenv helmet morgans cors knex knex-cleaner sqlite3
+6. npm i express dotenv helmet morgans cors knex knex-cleaner sqlite3 colors
 7. touch .env
 8. npx knex init
 9. mkdir data => cd
