@@ -58,6 +58,9 @@
 
 29. 02.js :
     add in seed data
-30. create endpoints in router
 
-31. create functions in model
+30. npx knex seed:run
+
+31. create endpoints in router
+
+32. create functions in model
